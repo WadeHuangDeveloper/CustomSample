@@ -1,0 +1,148 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "CustomSDK",
+    "printedName": "CustomSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CustomSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CustomClient",
+        "printedName": "CustomClient",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomClient",
+                "printedName": "CustomSDK.CustomClient",
+                "usr": "s:9CustomSDK0A6ClientC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9CustomSDK0A6ClientC6sharedACvpZ",
+            "mangledName": "$s9CustomSDK0A6ClientC6sharedACvpZ",
+            "moduleName": "CustomSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CustomClient",
+                    "printedName": "CustomSDK.CustomClient",
+                    "usr": "s:9CustomSDK0A6ClientC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CustomSDK0A6ClientC6sharedACvgZ",
+                "mangledName": "$s9CustomSDK0A6ClientC6sharedACvgZ",
+                "moduleName": "CustomSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getName",
+            "printedName": "getName()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9CustomSDK0A6ClientC7getNameSSyF",
+            "mangledName": "$s9CustomSDK0A6ClientC7getNameSSyF",
+            "moduleName": "CustomSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCurrentTime",
+            "printedName": "getCurrentTime()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9CustomSDK0A6ClientC14getCurrentTime10Foundation4DateVyF",
+            "mangledName": "$s9CustomSDK0A6ClientC14getCurrentTime10Foundation4DateVyF",
+            "moduleName": "CustomSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9CustomSDK0A6ClientC",
+        "mangledName": "$s9CustomSDK0A6ClientC",
+        "moduleName": "CustomSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
